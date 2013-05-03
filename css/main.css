@@ -38,7 +38,12 @@ h1, h2, h3, h4, b {
 
 		color: #c3522f;
 	}
-
+  .text-black {
+    color:#333;
+  }
+  .chinese-p{
+    text-indent: 2em;
+  }
 .logo{
   height:95px;
   background: url('../img/logo.png') no-repeat scroll top left;
@@ -208,7 +213,16 @@ footer {
 .copyright {
   color: #2a99d8;
   padding-top:20px;
+  margin-bottom:30px;
 }
+.lyuinfo {
+  background:url('../img/lyu.png') no-repeat scroll top left;
+  padding-top:60px;
+}
+.otherinfo, .tqqinfo, .sponsorinfo {
+  padding-top:22px;
+}
+
 
 /* Banner */
 .banner {
