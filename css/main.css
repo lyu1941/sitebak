@@ -39,7 +39,10 @@ h1, h2, h3, h4, b {
 		color: #c3522f;
 	}
 
-
+.logo{
+  height:95px;
+  background: url('../img/logo.png') no-repeat scroll top left;
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -348,4 +351,33 @@ footer {
 	pre {
 		overflow: auto;
 	}
+}
+/* ==========================================================================
+   lecture's styles
+   ========================================================================== */
+.title {
+  height:150px;
+  margin-bottom:20px;
+	-o-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	box-shadow: inset 0 -3px 6px rgba(0,0,0,.1);
+	font-size: 18px;
+	line-height: 24px;
+	color: rgba(255,255,255,.6);
+	text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+	box-shadow: 0 1px 2px rgba(0,0,0,.25);
+}
+	.title .inner {
+		padding: 30px 0 50px;
+	}
+	.title h1, .title h2 {
+		font-size: 40px;
+		line-height: 52px;
+		color: #fff;
+	}
+.lecturepage {
+  margin-top:-95px;
 }
